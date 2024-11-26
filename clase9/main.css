@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer{
+text-align: center;
+padding: 10px;
+background-color: #4CAF50;
+color: #fff;
+}
+
+.main-container{
+    padding: 20px;
+}
+
+.box{
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.visible-large{
+    background-color: #ff5722;
+}
+
+.visible-medium{
+    background-color: #3f51b5;
+    display: none;
+}
+
+.visible-small{
+    background-color: #009688;
+    display: none;
+}
+
+.flex-container{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+
+.item{
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: solid 1px #ccc;
+}
+
+/*Responsive Desing*/
+
+/*Medidas de tablet*/
+@media (max-width: 1024px) {
+    .visible-large{
+        display: none;
+    }
+    .visible-medium{
+        display: block;
+    }
+    .flex-container{
+        flex-direction: row;
+    }
+}
+
+/*Medidas de Celular*/
+@media screen and (max-width:767px){
+    .visible-medium{
+        display: none;
+    }
+    .visible-small{
+        display: block;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+/* @media (max-width:480px){
+    .flex-container{
+        gap: 5px;
+    }
+    .item{
+        padding: 10px;
+        font-size: 14px;
+    }
+} */
+
+
+/* @media (max-width:480px) ----> Breakpoint o punto de quiebre
+    .flex-container{
+        gap: 5px;
+    }
+    .item{
+        padding: 10px;
+        font-size: 14px;
+    }
+}*/
+
+/*Trabajando mobile first con grids
+1-> Estructura del HTML
+2-> Asignar a nuestro contenedor la propiedad display grid
+3-> Asignar numero de columnas y filas y un espacio de separacion (gap)
+4-> Definir e área que va a ocupar cada caja
+5-> Definir como queremos que cada area se acomode en el layout
+*/

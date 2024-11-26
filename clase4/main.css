@@ -1,0 +1,118 @@
+body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+/* Estilos para links */
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+/* p:hover{
+    color: darkgoldenrod;
+    cursor: pointer;
+} */
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: deeppink;
+}
+/* estilos para textos */
+
+/*italica*/
+
+.textoLindo{
+    /* font-style: italic; */
+    font-size: 15px;
+    color: brown;
+}
+
+.cuadrado{
+    width: 150px;
+    height: 150px;
+    /* border: solid 2px #1dc7ad; */
+    border-left: solid 2px #1dc7ad;
+    border-bottom: solid 2px #1dc7ad;
+    border-right: solid 5px #511074;
+    border-top: dashed 3px #a0124b;
+}
+
+.texto{
+    /* letter-spacing: 5px;
+    word-spacing: 14px;
+    line-height: 200px; */
+    text-align: justify;
+
+}
+
+.texto span{
+    /* text-decoration: underline;
+    text-decoration: overline; 
+    text-decoration: line-through;
+    text-transform: capitalize;*/
+}
+
+/* estilos para listas */
+
+/* list style type */
+
+.listaUno{
+    list-style-type: none;
+}
+
+.navLink{
+    font-size: 25px;
+    color: #000;
+
+}
+
+.navLink:hover{
+    color: #a0124b;
+}
+
+.navLink:active, .navLink:visited{
+    color: #000;
+}
+
+.navList{
+    list-style-type: none;
+}
+
+ol{
+    /* list-style-type:georgian; */
+    list-style-image: url("./assets/icons8-check-50.png");
+}
+
+
+
+/* FONDOS */
+
+.bodyContacto{
+    background-color: #fff8d5;
+    background-image: url("./assets/Floral_daisy_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 10px 20px; */
+    background-attachment:fixed;
+}
+
+.tituloContacto{
+    background-color: bisque;
+}
+
+.finita{
+    font-weight: 300;
+}
+
+.finita span{
+    font-weight: 600;
+    font-style: italic;
+}

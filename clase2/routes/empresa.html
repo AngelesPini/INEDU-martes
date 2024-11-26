@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa</title>
+</head>
+<body>
+    <ul>
+        <!-- sugar sintax: <tag> + *5 -->
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="empresa.html">Empresa</a></li>
+        <li>Servicios</li>
+        <li><a href="productos.html">Productos</a></li>
+        <li>Contacto</li>
+        <li>FAQs</li>
+    </ul>
+    <h1>EMPRESA</h1>
+
+    <form action="" id="contacto">
+        <!-- para que un formulario funcione se requieren de 3 atributos: Action, Method, Ectype -->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+
+        <input type="password" placeholder="Clave">
+        <input type="email" placeholder="Email" name="Email">
+        <input type="number" placeholder="Número" name="Numero">
+        <textarea name="" id="" placeholder="Mensaje" rows="4" cols="15"></textarea>
+
+        <!-- botones -->
+        <input type="submit" value="Enviar">
+        <input type="reset" name="" id="" value="Limpiar Formulario">
+        <input type="button" value="Sin accion">
+        <br>
+        <!-- controles de selección -->
+        <input type="radio" name="" id="" value="Mujer"> <span>Mujer</span>
+        <input type="checkbox" name="" id="" value="Hombre"> <span>Hombre</span>
+
+
+        <!-- menus desplegables -->
+         <select name="Talles" id="" required>
+            <option value="XL">Extra large</option>
+            <option value="L">Large</option>
+            <option value="M">Medium</option>
+            <option value="S">Small</option>
+         </select>
+    </form>
+</body>
+</html>

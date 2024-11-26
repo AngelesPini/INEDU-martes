@@ -1,0 +1,33 @@
+/*aca adentro escribo comentarios*/
+
+/* 
+selector/etiqueta{
+    propiedad: valor;
+    propiedad2:valor;
+}
+*/
+
+/* titulo */
+h1{
+    color: #081a5b;
+    font-size: 50px;
+}
+
+p, span{
+    color: blueviolet;
+}
+
+.textoRojo{
+    color: red;
+}
+
+
+#spanID{
+    color: blue;
+}
+/* span{
+    color: blueviolet;
+} */
+/* galeria de imagenes */
+
+/* textos del blog */

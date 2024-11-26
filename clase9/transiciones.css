@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+.main-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section{
+    text-align: center;
+}
+
+.box{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*escala*/
+.scale-box{
+    background-color: #ff5722;
+}
+
+.scale-box:hover{
+transform: scale(1.5);
+transition: transform 0.5s ease-in-out;
+}
+
+/*rotacion*/
+
+.rotate-box{
+    background-color: cadetblue;
+}
+
+.rotate-box:hover{
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/*Translación*/
+.escondido{
+    background-color: aquamarine;
+}
+.translate-box, .escondido{
+    position:absolute;
+}
+.translate-box{
+    background-color: burlywood;
+
+}
+
+.translate-box:hover{
+    transform: translateX(150px); 
+    transition: transform 0.5s ease-in-out;
+}
+
+/*Efecto 3D*/
+
+.three-d-box{
+    background-color: darkkhaki;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.three-d-box:hover{
+    transform: rotateY(45deg) rotateX(30deg);
+    box-shadow:10px 10px 30px rgba(0,0,0,0.5) ;
+    transition: transform 0.7s ease, box-shadow 0.7s ease;
+}
+
+/*
+ease-in -> comienza la animacion lent y termina rapido
+ease-out -> incia a toda velocidad y termina lento
+ease-in-out -> comienza lento, sera rapido en medio y termina lento
+ease -> como ease-in-out, nsolo q comienza mas rapido de lo que termina
+linear -> no usa "relajación"
+*/
+
+/*Animación de rebote*/
+
+/*keyframes ->animation
+
+@keyframes rebotes {
+    from{
+        propiedad : valorInicial
+    }
+    to{
+        propiedad: valorFinal
+    }
+}
+*/
+
+
+@keyframes rebotes {
+    0%, 100%{
+        transform: translateY(0);
+    }50%{
+        transform: translateY(-50px);
+    }
+}
+
+.animated-box{
+    background-color: #3f51b5;
+    animation: rebotes 1s ease-in-out infinite;
+}
+
+
+@keyframes complexAnimation {
+    0%{
+        transform: rotate(0) translateY(0);
+    }
+    50%{
+        transform: rotate(180deg) translateY(-100px);
+        background-color: #e91e63;
+    }
+    100%{
+        transform: rotate(360deg) translateY(0);
+        background-color: #009688;
+    }
+}
+.complex-box{
+    background-color: #ff5722;
+    animation: complexAnimation 3s ease-in-out infinite;
+}

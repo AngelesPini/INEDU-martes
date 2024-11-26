@@ -1,0 +1,36 @@
+/* propiedades de flebox
+flex direction :indicar la posicion en la que se acomodan los elemntos -> vertical u horizontal
+flex wrap: 
+flex flow
+justify-content
+align items
+align content */
+body{
+    font-family: "Josefin Sans", serif;
+}
+
+.contenedorFlexible{
+    display: flex; 
+    border: solid 2px purple;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: auto;
+    height: 550px;
+    align-items: center;
+    align-content: stretch;
+}
+
+.elementoFlexible{
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    color: #fff;
+}
+
+/* header{
+    background-image: url('fondo.jpeg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
