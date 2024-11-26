@@ -1,0 +1,40 @@
+Git & Gihub
+
+GIT:
+Es un sistema de cntrol de versiones, gratuito y de código abierto, diseñado para manejar desde pequeños a grandes proyectos de manera rapida y eficaz. 
+
+Se resume a una especie de historial de cambios.
+
+VERSION CONTROL SYSTEM (VCS)
+Se dividen en 3 tipos:
+
+VSC Local-> vive en la computadora. Unicamente allí.
+
+VCS Centralizado -> Tienjen un unico servidor que contiene todos los archivos versionados, y varios clientes descargan ese archivo desde ese lugar central. 
+
+VCS Distribuidos -> Donde los clientes no solo descargan la ultima version, sino que tienen acceso a todo el historial de cambios. 
+
+Bitkeeper -> DVCS
+
+sistema de ramificacion (branching)
+
+
+***************
+
+Git tiene 3 estados principales enj los que se pueden encontrar los archivos:
+
+commited -> confirmado (commitear) -> significa que los datos estan almacenados de manera segura en la base de datos local
+modified -> modificado -> has modificado el archivo pero no has confirmado los cambios en la BDD
+staged -> preparado -> que se marco un archivo modificado en su version actual para que vaya a la proxima confirmacion
+
+Git puede trabajar en RAMAS (BRANCHES)
+
+
+GITHUB.
+
+Es un servicio de alojamiento para repositorios de nsoftware gestionados por el sistema de control de versiones.
+
+Gitlab y BitBucket pero son malisimas (opinion de la profe)
+
+
+
