@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.caja, .titulo, .cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.caja{
+    border: solid 1px #000;
+    border-radius: 15px;
+    justify-content: center;
+    width: fit-content;
+    padding: 20px;
+    gap: 15px;
+}
+
+button{
+    padding: 5px;
+    background-color: burlywood;
+}
+
+
+.cajaMadre{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.cajaMadre .tituloGrande{
+    width: 50%;
+}
+
+.peligro{
+    background-color: chocolate;
+}
+.carousel{
+    width: 250px;
+}
