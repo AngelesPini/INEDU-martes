@@ -1,0 +1,19 @@
+.offcanvas{
+    background-image: url("https://images.unsplash.com/photo-1541873676-a18131494184?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXN0cm9uYXV0fGVufDB8fDB8fHww");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+color: #fff;
+}
+
+.nav-link, .active, .btn-close{
+    color:cadetblue ;
+}
+/* .carousel, .carousel-inner, .carousel-item{
+    height: 200px;
+}
+
+.carousel img{
+    height: auto;
+    width: auto;
+} */
