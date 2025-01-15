@@ -1,0 +1,20 @@
+$colorPrimario: #5C573E;
+$colorSecundario:#A5B452; 
+$colorTextos:#9BA7C0;
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        li{
+            color: $colorTextos;
+        }
+    }
+    img{
+        width: 50px;
+    }
+}

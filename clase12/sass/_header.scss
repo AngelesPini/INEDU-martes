@@ -1,0 +1,18 @@
+$colorPrimario: #5C573E;
+$colorSecundario:#A5B452; 
+$colorTextos:#9BA7C0;
+header{
+    display: flex;
+    flex-direction: column;
+    .titulo{
+        h1{
+            color: $colorPrimario;
+        }
+        h2{
+            color: $colorSecundario;
+        }
+        p{
+            color: $colorTextos;
+        }
+    }
+}

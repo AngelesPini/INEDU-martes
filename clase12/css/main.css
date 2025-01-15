@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .titulo h1 {
+  color: #5C573E;
+}
+header .titulo h2 {
+  color: #A5B452;
+}
+header .titulo p {
+  color: #9BA7C0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+nav ul li {
+  color: #9BA7C0;
+}
+nav img {
+  width: 50px;
+}
+
+main .section2 .galeriaImagenes {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+main .section2 .galeriaImagenes img {
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

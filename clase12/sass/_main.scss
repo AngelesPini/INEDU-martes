@@ -1,0 +1,22 @@
+$radius: 10px;
+@mixin tamanoImagenes($radius){
+    border-radius: $radius;
+    width: 150px;
+    height: auto;
+}
+
+main{
+    .section1{
+
+    }
+    .section2{
+        .galeriaImagenes{
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            img{
+                @include tamanoImagenes(10px);
+            }
+        }
+    }
+}
