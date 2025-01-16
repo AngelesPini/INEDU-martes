@@ -4,6 +4,22 @@ $radius: 10px;
     width: 150px;
     height: auto;
 }
+$colorPrimario: #5C573E;
+$colorSecundario:#A5B452; 
+$colorTextos:#9BA7C0;
+/*Extend/inherit*/
+
+%button-styles{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+}
+%button-styles:hover{
+    border: solid 2px blue;
+    border-radius: 0px;
+}
 
 main{
     .section1{
@@ -16,6 +32,22 @@ main{
             gap: 15px;
             img{
                 @include tamanoImagenes(10px);
+            }
+        }
+    }
+    .section3{
+        .botones{
+            .btn-primary{
+                @extend %button-styles;
+            }
+            .btn1{
+                background-color: $colorPrimario;
+            }
+            .btn2{
+                background-color: $colorSecundario;
+            }
+            .btn3{
+                background-color: $colorTextos;
             }
         }
     }

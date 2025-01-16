@@ -29,6 +29,20 @@ nav img {
   width: 50px;
 }
 
+/*Extend/inherit*/
+main .section3 .botones .btn-primary {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+main .section3 .botones .btn-primary:hover {
+  border: solid 2px blue;
+  border-radius: 0px;
+}
+
 main .section2 .galeriaImagenes {
   display: flex;
   flex-direction: row;
@@ -38,6 +52,22 @@ main .section2 .galeriaImagenes img {
   border-radius: 10px;
   width: 150px;
   height: auto;
+}
+main .section3 .botones .btn1 {
+  background-color: #5C573E;
+}
+main .section3 .botones .btn2 {
+  background-color: #A5B452;
+}
+main .section3 .botones .btn3 {
+  background-color: #9BA7C0;
+}
+
+footer {
+  background-color: blue;
+}
+footer ul li {
+  color: #fff;
 }
 
 * {
